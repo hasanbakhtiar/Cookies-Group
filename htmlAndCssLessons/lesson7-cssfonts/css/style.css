@@ -1,0 +1,33 @@
+/* @import url('main.css'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap'); */
+@import url('Fascinate/Fascinate-Regular.ttf');
+@import url('Fascinate/OFL.txt');
+@font-face{
+    font-family: myFont;
+    src: url('Fascinate/Fascinate-Regular.ttf');
+}
+p{
+    color: black;
+    background-color: gray;
+    font-size: 30px;
+    /* letter-spacing: 10px; */
+    /* line-height: 50px; */
+    /* font-family: 'Courier New', Courier, monospace; */
+    /* font-weight: 900; */
+    /* font-style: italic; */
+    /* font-family:  'Fascinate', cursive;; */
+    font-family: myFont;
+
+}
+
+p span{
+    color: red;
+}
+
+ol li:nth-child(2){
+    color: red;
+}
+
+ol li:nth-child(1){
+    color: green;
+}
