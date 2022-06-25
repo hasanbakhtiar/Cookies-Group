@@ -1,0 +1,69 @@
+/* .test{
+    color: red;
+}
+#text{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bolder;
+    color: blue;
+
+}
+
+.newName{
+    background-color: green;
+    color: white;
+
+}
+
+
+.newName{
+    background-color: green;
+    color: orange;
+
+}
+
+#text{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bolder;
+    color: brown;
+
+} */
+
+/* 
+her bir html tag`i 
+3 formadan birine malikdir
+1-ci block
+2-ci inline 
+3-cu inline-block
+*/
+
+/* .box{
+    display: block;
+    display: inline;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+span{
+    color: brown;
+    background-color: green;
+} */
+
+.box {
+    /* display: inline-block; */
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /* padding-top: 100px; */
+    /* margin-bottom: 100px; */
+    /* margin-left: 100px; */
+    /* margin-right: 100px; */
+    /* margin: 100px 20px 50px 30px ; */
+    
+    /* padding-bottom: 100px; */
+    /* padding-left: 100px; */
+    /* padding-right: 100px; */
+    /* padding: 100px 20px 50px 30px ; */
+}

@@ -1,0 +1,45 @@
+html{
+    width:16px; 
+}
+
+
+.box {
+    /* width: 10rem;
+    height: 10rem; */
+    
+    width: 50vw;
+    height: 50vh;
+    background-color: red;
+
+    /* px  */
+    /* em = 16px  */
+    /* rem = 16px  */
+    /* vh -> viewport height  */
+    /* vw */
+
+
+    /* background-color: red; */
+    /* color systems */
+    /* hex */
+    /* 0123456789abcdef */
+    /* # min 0 -> max f */
+    /* #`den sonra min3 max8 simvol olur */
+    /* background-color: #000 ; */
+
+    /* rgb */
+    /* red green blue */
+    /* min 0 -> max 255 */
+    /* background-color: rgb(0,0,0); */
+    /* rgba */
+    /* red green blue alpha */
+    /* alpha min 0 -> max 1 */
+    /* background-color: rgba(255, 0, 0, .1); */
+
+    /* hsl */
+    /* hue, saturation, lightness */
+    /* background-color:hsl(100, 50%, 20%); */
+    /* hwb */
+    /* hue, whiteness and blackness */
+
+    /* background-color: #ff00001d; */
+}
