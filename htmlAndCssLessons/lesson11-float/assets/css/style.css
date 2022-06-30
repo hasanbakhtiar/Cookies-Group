@@ -1,0 +1,18 @@
+
+
+.photo{
+    display: block;
+    float: left;
+    clear: both;
+    /* float: right; */
+}
+.text{
+    /* width: 200px;
+    float: left; */
+    color: red;
+    /* clear: both; */
+
+}
+/* .textOne{
+    clear: both;
+} */

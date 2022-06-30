@@ -1,0 +1,31 @@
+.main-box{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-direction: row; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* justify-content: center; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+    /* flex-wrap: nowrap; */
+}
+
+.main-box .box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 3px;
+    font-size: 50px;
+    color: #fff;
+    
+}
