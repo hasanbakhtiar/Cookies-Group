@@ -1,0 +1,22 @@
+.hero{
+    width: 100%;
+    height: 90vh;
+    // filter: blur(4px);
+    background-image: url('../img/img-hero1.jpg');
+    // background-size: contain;
+    background-size: cover;
+    background-position: center;
+    // background-repeat: no-repeat;
+    .hero-bg{
+        width: 100%;
+        height: 90vh;
+        background-color: rgba($color: #000000, $alpha: .5);
+        // background-color: #000;
+        // opacity: .5;
+        @include center;
+        h1{
+            color: #fff;
+            font-size: 10em;
+        }
+    }
+}
