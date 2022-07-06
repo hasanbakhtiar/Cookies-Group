@@ -1,0 +1,57 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css');
+
+// .con-box{
+//     position: relative;
+//     width: 100%;
+//     height: 400px;
+//     background-color: #000;
+//     .main-box{
+//         width: 50%;
+//         height: 250px;
+//         background-color: green;
+//         .box{
+//             position: absolute;
+//             // right: 100px;
+//             // top: 100px;
+//             // left: 100px;
+//             bottom: 100px;
+//             width: 100px;
+//             height: 100px;
+//             background-color: red;
+//         }
+//     }
+// }
+
+
+header{
+    position: sticky;
+    top: 100px;
+    bottom: 0;
+    z-index: 2;
+    // position: fixed;
+    // z-index: 1;
+    width: 100%;
+    height: 100px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ul{
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        li{
+            list-style: none;
+            a{
+                    text-decoration: none;
+                    color: #fff;
+                    font-size: 30px;
+            }
+        }
+    }
+}
+p{
+    position: relative;
+    z-index: 1;
+    color: rgb(0, 226, 181);
+}

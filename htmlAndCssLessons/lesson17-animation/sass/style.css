@@ -1,0 +1,39 @@
+.box {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  -webkit-animation-name: hereket;
+          animation-name: hereket;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+@-webkit-keyframes hereket {}
+
+@keyframes hereket {}
+i {
+  font-size: 30px;
+  -webkit-animation: firlat 3s infinite linear;
+          animation: firlat 3s infinite linear;
+}
+
+@-webkit-keyframes firlat {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes firlat {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}/*# sourceMappingURL=style.css.map */

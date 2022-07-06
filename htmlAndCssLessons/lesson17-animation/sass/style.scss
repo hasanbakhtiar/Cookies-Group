@@ -1,0 +1,47 @@
+.box {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: hereket;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    // animation-delay: 3s;
+
+}
+
+@keyframes hereket {
+
+    // from{left: 0;}
+    // to{left: 200px;}
+    //   from{ width: 100px;
+    //     height: 100px;}
+    // to{ width: 500px;
+    //     height: 500px;}
+
+    // 0%{width: 100px; height: 100px;}
+    // // 25%{}
+    // 50%{width: 500px; height: 500px;}
+    // // 75%{}
+    // 100%{width: 100px; height: 100px;}
+
+    // 0%{left: 0; top: 0; background-color: green;}
+    // 25%{left: 300px; top: 0; background-color: rgb(18, 188, 143); transform: rotate(30deg);}
+    // 50%{left: 300px; top: 300px; background-color: rgb(249, 231, 134);}
+    // 75%{left: 0px; top: 300px; background-color: rgb(0, 102, 204);}
+    // 100%{left: 0; top: 0; background-color: green;}
+
+}
+i{
+    font-size: 30px;
+    animation: firlat 3s infinite linear;
+}
+
+@keyframes firlat {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
