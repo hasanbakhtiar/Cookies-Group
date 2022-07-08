@@ -1,0 +1,15 @@
+@media (max-width:700px) {
+    header{
+        height: 200px;
+        nav{
+            margin-left: 100px;
+            ul{
+                flex-direction: column;
+                justify-content: flex-end;
+                li{
+                    margin-top: 5px;
+                }
+            }
+        }
+    }
+}
