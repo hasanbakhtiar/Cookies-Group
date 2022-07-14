@@ -1,0 +1,28 @@
+.hero{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .hero-con{
+        background-color: #eee;
+        width: 80%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+
+        .hero-card{
+            width: 30%;
+            height: auto;
+            padding: 10px;
+                border: 1px solid #000;
+                .card-img{
+                    border: 1px solid #fff;
+                    width: 100%;
+                    height: 200px;
+                    background-color: #000;
+                }
+        }
+    }
+}

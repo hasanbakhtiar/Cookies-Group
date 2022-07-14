@@ -1,0 +1,13 @@
+.myred {
+  color: red !important;
+}
+.myred:hover {
+  color: red;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 3px;
+}/*# sourceMappingURL=style.css.map */
