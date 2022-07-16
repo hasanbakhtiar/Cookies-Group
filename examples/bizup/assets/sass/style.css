@@ -1,0 +1,23 @@
+.tp-nav {
+  height: 52px;
+  background-color: #bb0b0b !important;
+}
+.tp-nav * {
+  color: #fff;
+}
+.tp-nav *:hover {
+  color: #fff;
+}
+.tp-nav .bizup-size {
+  font-size: 15px !important;
+}
+
+.img-box {
+  overflow: hidden;
+}
+
+.bizup-card:hover img {
+  transition: 1s;
+  transform: scale(1.3);
+  overflow-x: hidden;
+}/*# sourceMappingURL=style.css.map */

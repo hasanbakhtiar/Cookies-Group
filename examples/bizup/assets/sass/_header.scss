@@ -1,0 +1,14 @@
+.tp-nav{
+    height: 52px;
+    background-color: $bizupred !important;
+    *{
+        color: #fff;
+        &:hover{
+        color: #fff;
+
+        }
+    }
+    .bizup-size{
+        font-size: 15px !important;
+    }
+}
