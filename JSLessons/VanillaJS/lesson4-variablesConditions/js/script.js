@@ -98,3 +98,14 @@
 //     console.log("duzgun reqem daxil edin");
 //     break;
 // }
+
+
+// try {
+//     throw "";
+//     console.loag("Hello");
+// } catch (err) {
+//     console.log(err);
+//     // console.log("Burada bir sehv var");
+// }finally{
+//     console.log("everything is good");
+// }
