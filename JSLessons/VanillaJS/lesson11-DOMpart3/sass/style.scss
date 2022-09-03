@@ -1,0 +1,35 @@
+body{
+    height: 200vh;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+}
+
+// /* width */
+// ::-webkit-scrollbar {
+//     width: 15px;
+//   }
+  
+//   /* Track */
+//   ::-webkit-scrollbar-track {
+//     box-shadow: inset 0 0 5px rgb(0, 216, 220); 
+//     border-radius: 10px;
+//   }
+   
+//   /* Handle */
+//   ::-webkit-scrollbar-thumb {
+//     background: rgb(0, 119, 255); 
+//     // background: url('https://img.freepik.com/free-vector/app-icon-set-websites-mobiles_1325-481.jpg?w=2000');
+
+//     border-radius: 10px;
+//   }
+  
+//   /* Handle on hover */
+//   ::-webkit-scrollbar-thumb:hover {
+//     // background: #8300b3; 
+//     background: url('https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__340.jpg');
+//   }
