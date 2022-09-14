@@ -1,0 +1,10 @@
+<allCars>
+    <car id="1">
+        <model>bmw</model>
+        <color>black</color>
+    </car>
+    <car id="2">
+        <model>lada</model>
+        <color>red</color>
+    </car>
+</allCars>
