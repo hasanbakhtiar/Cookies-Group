@@ -7,8 +7,8 @@ const MovieList = () => {
 
   return (
     <div className='row'>
-      {movies.map((fd)=>(
-        <SingleMovie title={fd.title} price={fd.price}/>
+      {movies.map((fd,i)=>(
+        <SingleMovie key={i} title={fd.title} price={fd.price}/>
       ))}
     </div>
   )

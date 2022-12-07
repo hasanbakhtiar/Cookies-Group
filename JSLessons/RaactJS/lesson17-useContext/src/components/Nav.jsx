@@ -21,7 +21,10 @@ const Nav = () => {
         </li>
      
       </ul>
-      
+        <div className="d-flex" >
+        <Link className="btn btn-primary" to='/add'>Add</Link>
+      </div>
+
     </div>
   </div>
 </nav>

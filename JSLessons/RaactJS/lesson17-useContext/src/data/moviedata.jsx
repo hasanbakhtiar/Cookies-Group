@@ -13,11 +13,6 @@ const moviedata = [
         title:"Thor",
         price:11,
         id:452313
-    },
-    {
-        title:"Thor",
-        price:11,
-        id:452313
     }
 ]
 
